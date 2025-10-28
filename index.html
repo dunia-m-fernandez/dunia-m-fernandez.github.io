@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hi, I’m <Your Name></title>
+    <style>
+      body{max-width:780px;margin:3rem auto;font:16px/1.6 system-ui,Segoe UI,Roboto,Helvetica,Arial}
+      h1{margin-bottom:.25rem} nav a{margin-right:1rem}
+      footer{margin-top:2rem;font-size:.9rem;opacity:.7}
+    </style>
+  </head>
+  <body>
+    <h1>Your Name</h1>
+    <p>Short bio / tagline.</p>
+    <nav>
+      <a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </nav>
+    <h2 id="projects">Projects</h2>
+    <ul>
+      <li><a href="https://github.com/your-user/your-project">Project A</a> — one line about it.</li>
+    </ul>
+    <h2 id="contact">Contact</h2>
+    <p>Email • LinkedIn • GitHub</p>
+    <footer>© <span id="y"></span> Your Name</footer>
+    <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+  </body>
+</html>
